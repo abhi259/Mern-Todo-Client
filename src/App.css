@@ -1,0 +1,25 @@
+.popupButton {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  font-size: 28px;
+  font-weight: 900;
+}
+.popupAddTask {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgb(209, 209, 209);
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+}
