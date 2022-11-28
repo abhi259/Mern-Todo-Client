@@ -72,10 +72,11 @@ function App() {
           <div
             key={todo._id}
             className="flex items-center justify-between bg-cyan-900 rounded-2xl m-4 pr-4 p-2"
+            onClick={() => updateStatus(todo._id)}
           >
             <div
               className="flex items-center p-2 cursor-pointer"
-              onClick={() => updateStatus(todo._id)}
+              
             >
               <p
                 className={
